@@ -1,12 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* button {
-  padding: 10px;
-  background: white;
-  outline: none;
-  border: 1px solid rgba(128, 128, 128, 0.566);
-  font-size: 17px;
-  border-radius: 25fr;
-} */
