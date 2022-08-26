@@ -262,16 +262,12 @@ const Questions = () => {
           </div>
         </ProgressBar>
 
-        <button
-          onClick={retryQuis}
-          className=" bg-[#80ced6] hover:bg-[#38a2ad] text-white font-bold py-2 px-6 m-3 mt-6 rounded-full font-poppins "
-          disabled={handleDisable()}
-        >
-          Retry.
-        </button>
+        <Link to="/">
+          <button className=" bg-[#80ced6] hover:bg-[#38a2ad] text-white font-bold py-2 px-6 m-3 mt-6 rounded-full font-poppins ">
+            Retry.
+          </button>
+        </Link>
       </div>
-      <FontAwesomeIcon icon="fab fa-facebook-f" />
-      <img src={require("../images/facebook.jpg")} alt="" />
     </div>
   );
   success ? (validateMarkup = myMarkup) : (validateMarkup = nextMarkup);
