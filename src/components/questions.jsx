@@ -263,9 +263,9 @@ const Questions = () => {
           </div>
         </ProgressBar>
 
-        <Link to="/questions">
+        <Link to="/">
           <button
-            onClick={retryQuis}
+            /* onClick={retryQuis} */
             className=" bg-[#80ced6] hover:bg-[#38a2ad] text-white font-bold py-2 px-6 m-3 mt-6 rounded-full font-poppins "
           >
             Retry.
