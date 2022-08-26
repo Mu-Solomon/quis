@@ -6,7 +6,7 @@ import ProgressBar from "react-customizable-progressbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Questions = () => {
-  const [currentQuestion, setCurrentQuestion] = useState(11);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
   const [marks, setMarks] = useState(0);
   const [count, setCount] = useState(1);
   const [trueCount, setTrueCount] = useState(0);
