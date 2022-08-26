@@ -1,6 +1,7 @@
 import React from "react";
 import Answers from "./answer";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import ProgressBar from "react-customizable-progressbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -262,8 +263,11 @@ const Questions = () => {
           </div>
         </ProgressBar>
 
-        <Link to="/">
-          <button className=" bg-[#80ced6] hover:bg-[#38a2ad] text-white font-bold py-2 px-6 m-3 mt-6 rounded-full font-poppins ">
+        <Link to="/questions">
+          <button
+            onClick={retryQuis}
+            className=" bg-[#80ced6] hover:bg-[#38a2ad] text-white font-bold py-2 px-6 m-3 mt-6 rounded-full font-poppins "
+          >
             Retry.
           </button>
         </Link>
